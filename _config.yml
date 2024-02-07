@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Peter Seo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "기록하는 **백앤드개발자**"
   location         : "서울시 강남구 개포동"
   email            : "ilovefran.ofm@gmail.com"
@@ -283,3 +283,6 @@ defaults:
       show_date: true
 
 date_format: "%Y-%m-%d"
+
+port: 4000
+host: "0.0.0.0"

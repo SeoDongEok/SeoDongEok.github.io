@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  dev:
+    container_name: blog
+    image: site
+    command: ["jekyll", "serve", "--incremental", "--livereload"]
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - ./:/srv/jekyll
