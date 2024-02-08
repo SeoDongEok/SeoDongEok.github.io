@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Jekyll 블로그 Docker로 만들기"
-categories: programming
+categories: blog
 tag: [blog, jekyll, docker]
 toc: true
 author_profile: false
