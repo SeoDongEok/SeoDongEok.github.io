@@ -8,12 +8,12 @@ author_profile: false
 sidebar:
   nav: "blog"
 search: true
-
+typora-root-url: ../
 ---
 
 
 
-<img src="../images/2024-02-07-blog-docker/img1.daumcdn.png" alt="img1.daumcdn" style="zoom:50%;" />
+<img src="/images/2024-02-07-blog-docker/img1.daumcdn.png" alt="img1.daumcdn" style="zoom:25%;" />
 
 
 
@@ -72,7 +72,7 @@ $ docker run --volume="./:/srv/jekyll" -it blog bundle install
 
  ㅇ 도커환경에서 빌드를 완료하고 이를 다시 도커이미지로 만들어야 한다.
 
-[##_Image|kage@qLkS4/btsEyRqrXZh/RS9GbVd3hQkRsEmyn1uKJk/img.png|CDM|1.3|{"originWidth":974,"originHeight":288,"style":"alignCenter","filename":"스크린샷 2024-02-07 오후 7.40.10.png"}_##]
+![bundle_install](/images/2024-02-07-blog-docker/bundle_install.png)
 
  ㅇ 정상적으로 bundle install이 완료되었다.
 
@@ -142,7 +142,7 @@ $ docker-compose up -d
 
 #### ㅁ 접속테스트
 
-[##_Image|kage@bDirMF/btsEy3YwurN/R4k3w1nodchxf6PYzoz5F0/img.png|CDM|1.3|{"originWidth":2608,"originHeight":1660,"style":"alignCenter","filename":"스크린샷 2024-02-07 오후 8.38.16.png"}_##]
+ ![test_page](/images/2024-02-07-blog-docker/test_page.png)
 
  ㅇ localhost:4000접속 테스트를 진행하였다.
 
