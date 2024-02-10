@@ -1,3 +1,15 @@
+---
+layout: single
+title:  "코딩 테스트를 위한 파이썬 문법-반복문"
+categories: coding-test
+tag: [python]
+toc: true
+author_profile: false
+sidebar:
+  nav: "coding-test"
+search: true
+typora-root-url: ../
+---
 ```python
 ########
 # 반복문 #
