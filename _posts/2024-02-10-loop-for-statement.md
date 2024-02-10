@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "코딩 테스트를 위한 파이썬 문법-반복문"
+title:  "코딩 테스트를 위한 파이썬 문법-반복문 for문"
 categories: coding-test
 tag: [python]
 toc: true
@@ -158,10 +158,3 @@ for i in range(2,10):
     9 X 7 = 63
     9 X 8 = 72
     9 X 9 = 81
-    
-
-
-
-```python
-
-```
