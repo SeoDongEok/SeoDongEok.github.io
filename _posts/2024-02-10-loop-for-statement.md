@@ -18,6 +18,7 @@ typora-root-url: ../
 
 
 ```python
+#########
 # while문
 
 i = 1
@@ -37,6 +38,7 @@ print(result)
 
 
 ```python
+#########
 # for문
 result = 0
 
